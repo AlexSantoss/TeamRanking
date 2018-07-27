@@ -34,6 +34,6 @@ Código<br />
 	Para a resolução do sistema linear, eu usei uma função do numpy, a linalg.lstsq, que resolve usando mínimos quadrados e svd, que eu já comentei. Para a coleta de dados, fiz uma função que pega o html de um site. A partir do html, uso regex para extrair os dados que preciso e transformo em uma tabela.<br />
 	Fiz algumas alterações no meu código original para tornar-lo mais geral e fácil de se entender. Para usar outros campeonatos, basta ter um arquivo Times.csv contendo todos os times do campeonato e um arquivo Partidas.csv, onde cada linha representa um confronto e que segue o modelo:<br />
 
-       Nome do A;Pontuação do time A;Pontuação do time B;Nome do time B;Semana ou Rodada
+       Nome do time A;Pontuação do time A;Pontuação do time B;Nome do time B;Semana ou Rodada
 
-Logo, esse código pode ser usado para outros campeonatos. Um exemplo de utilidade é pro futebol, usando os gols como as pontuações dos times. Assim, o codigo se tornou bem mais génerico e com muito mais usos.
+Logo, esse código pode ser usado para outros campeonatos. Um exemplo de utilidade é pro futebol, usando os gols como as pontuações dos times. Assim, o codigo se tornou bem mais génerico e com muito mais usos. Para não usar os arquivos padrões, basta escolher essa opção quando for perguntando.
